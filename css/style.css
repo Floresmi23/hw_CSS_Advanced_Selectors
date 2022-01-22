@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+}
+
+html,body{
+    background-color: white;
+}
+
+div{
+    color: black;
+
+}
+
+div > div{
+     color: black;
+}
+
+div > div:nth-child(3){
+    color: red;
+}
+div > div:nth-child(4){
+    color: red;
+}
+
+div > div > div{
+    color: black;
+}
+
+div > div > div:nth-child(even){
+    font-size: 24px;
+    color: black;
+}
+
+
+
+
+div > div > div:nth-child(3) {
+    color: black;
+}
+
+
+
+div > div > div > div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin-bottom: 50px;
+
+}
+
+
+div > div > div > p:nth-child(1){
+    font-style: italic;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+div > div > div > p{
+    font-size: 17px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+div > div > div > div > div > p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+div > div > div > div > div > p:nth-child(3){
+    color: white;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+
+.button{
+    height: 50px;
+    width: 100px;
+    background-color: #ece7e7;
+    border: 1px solid black;
+    border-radius: 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover{
+    background-color: blue;
+    border-width: 3px;
+}
+
+.button:active{
+    background-color: #ece7e7;
+    border-width: 1px;
+    width: 200px;
+    height: 150px;
+    border-radius: 2px;
+}
+
